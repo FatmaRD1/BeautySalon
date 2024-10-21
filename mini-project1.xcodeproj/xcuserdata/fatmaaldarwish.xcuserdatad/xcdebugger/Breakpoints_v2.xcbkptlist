@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "353E208F-8037-4FA2-A371-C6DD42100552"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "240630D9-894A-45B9-9551-71EB5EECEC17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AdultsNails"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "240630D9-894A-45B9-9551-71EB5EECEC17 - 3435ca096b3f5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "240630D9-894A-45B9-9551-71EB5EECEC17 - 319acde53c3ee254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AdultsNails"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - 851f5d8866ed73b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.popupBtn.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - 644e74f5bf978fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.popupBtn.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - f2dc9ed1246294b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.popupBtn.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - 2843b46f7cc14cc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.popupBtn.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - 3435ca096b3f5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5DAA61F9-BE14-4F98-A54B-88704BE1AC0B - 319acde53c3ee254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB0101AA-7B0B-464F-9168-A23AA0CD3578"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AdultsNails"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "AdultsNails"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883 - c944d4e8376f71c5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883 - 3435ca096b3f508"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883 - ef3a2ac37d56d676"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883 - 319acde53c3ee2b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "57AE8726-4D06-43B4-95ED-28E1DCB75883 - a186bee7f3a78ead"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__deallocating_deinit"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575 - c944d4e8376f71c5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575 - 3435ca096b3f5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.AdultsNails"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575 - ef3a2ac37d56d676"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575 - 319acde53c3ee254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.AdultsNails&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "BAE8F633-B39E-48D4-8DAA-DF28C7DB0575 - a186bee7f3a78ead"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.AdultsNails.__deallocating_deinit"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/AdultsNails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "848CEBAE-EFEE-419B-A02D-5A445E77629C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "404C5A45-D108-4470-B5C6-6BD6F0251B8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdultsNails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B754043-FA46-4E27-B731-09A640897EE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "booking"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - 845306623b9fb6f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.lableBook.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - 52b29cc3dddfabb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.lableBook.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - 196e5235533c5d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.lableBook.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - f9ca93114615a23c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.lableBook.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - e011f433fc23c3aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mini_project1.booking"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5B754043-FA46-4E27-B731-09A640897EE8 - ca944f690b5a564c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mini_project1.booking.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mini_project1.booking&gt;"
+                  moduleName = "mini-project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmaaldarwish/Desktop/Fatma%20Ramadan%20-%20H00445683/mini-project1/mini-project1/booking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15F0B25E-CF5B-430D-B2B4-178F691AA892"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "booking"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2DFDBC3-9D7D-4445-AE56-FCC3607D38E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B589BE33-37B9-49FE-BBA6-3BCE7344E321"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C52E33-6908-4614-B83C-F90EDE530F85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8D0B539-5706-49B4-9F54-8CF73808B0C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FE3EAA7-51EA-4F8A-AB44-56D479097B32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/booking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA752537-1D69-4F08-B90E-9497AECF42EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mini-project1/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

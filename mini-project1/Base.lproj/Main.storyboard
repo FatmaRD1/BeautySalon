@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ixt-mk-4MH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sb7-oR-6VL">
+                                <rect key="frame" x="74" y="414.33333333333331" width="249" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SignUp">
+                                    <backgroundConfiguration key="background" cornerRadius="21">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.86274516580000005" green="0.52549022440000004" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zt4-JY-7bJ" kind="show" id="iSD-1U-s31"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azora" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VT-Wh-0xZ">
+                                <rect key="frame" x="26" y="151" width="341" height="85.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="75"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.51372551919999998" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEAUTY SALON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVy-Ko-eax">
+                                <rect key="frame" x="143" y="244.33333333333334" width="106.66666666666669" height="23.000000000000028"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="16"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvK-ba-hyR">
+                                <rect key="frame" x="74" y="340.33333333333331" width="249" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login ">
+                                    <backgroundConfiguration key="background" cornerRadius="21">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LiS-l7-r58" kind="show" id="e9N-e9-nRJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="HvK-ba-hyR" firstAttribute="top" secondItem="QVy-Ko-eax" secondAttribute="bottom" constant="73" id="4RL-re-ewZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QVy-Ko-eax" secondAttribute="trailing" constant="143.33000000000001" id="8Ae-lz-mnB"/>
+                            <constraint firstItem="HvK-ba-hyR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="ANV-G7-Rjc"/>
+                            <constraint firstItem="sb7-oR-6VL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="APr-du-kzs"/>
+                            <constraint firstItem="QVy-Ko-eax" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="TTQ-EB-rqV"/>
+                            <constraint firstItem="7VT-Wh-0xZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="UEr-2W-Ocj"/>
+                            <constraint firstItem="sb7-oR-6VL" firstAttribute="top" secondItem="HvK-ba-hyR" secondAttribute="bottom" constant="36" id="Vgm-o7-teL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sb7-oR-6VL" secondAttribute="trailing" constant="70" id="ZYy-3v-vR2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7VT-Wh-0xZ" secondAttribute="trailing" constant="26" id="dJs-lq-PmC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HvK-ba-hyR" secondAttribute="trailing" constant="70" id="fNT-Gf-f1q"/>
+                            <constraint firstItem="7VT-Wh-0xZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="fWV-jK-gm0"/>
+                            <constraint firstItem="QVy-Ko-eax" firstAttribute="top" secondItem="7VT-Wh-0xZ" secondAttribute="bottom" constant="7.6699999999999999" id="nXm-mc-RPo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zd1-bY-vS7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34.351145038167935" y="3.5211267605633805"/>
+        </scene>
+        <!--Loginpage-->
+        <scene sceneID="OvP-Sy-doD">
+            <objects>
+                <viewController id="LiS-l7-r58" customClass="loginpage" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZBm-k6-hri">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Email " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oVZ-Zd-f6q">
+                                <rect key="frame" x="65" y="267" width="244" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="yes"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Password " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gje-6A-SKb">
+                                <rect key="frame" x="65" y="378" width="244" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7O-hH-py1">
+                                <rect key="frame" x="65" y="234" width="146" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvf-la-7AK">
+                                <rect key="frame" x="65" y="345" width="180" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnL-2b-xWe">
+                                <rect key="frame" x="127" y="468" width="139" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login ">
+                                    <backgroundConfiguration key="background" cornerRadius="21">
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="grg-f0-2bs" kind="show" id="IwX-rI-Pd7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfH-G6-Ig5">
+                                <rect key="frame" x="96" y="127" width="201" height="49"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="43"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fcg-n7-8Sb"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="gje-6A-SKb" firstAttribute="top" secondItem="mvf-la-7AK" secondAttribute="bottom" constant="8" symbolic="YES" id="1AT-eG-XLb"/>
+                            <constraint firstItem="r7O-hH-py1" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="65" id="E1d-AD-3JC"/>
+                            <constraint firstItem="oVZ-Zd-f6q" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="65" id="Edn-Iw-Onh"/>
+                            <constraint firstItem="UnL-2b-xWe" firstAttribute="top" secondItem="gje-6A-SKb" secondAttribute="bottom" constant="56" id="FSF-kS-aJL"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="wfH-G6-Ig5" secondAttribute="trailing" constant="96" id="GAu-oA-M26"/>
+                            <constraint firstItem="mvf-la-7AK" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="65" id="Ipd-W8-XWb"/>
+                            <constraint firstItem="wfH-G6-Ig5" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="96" id="PXN-fe-ccy"/>
+                            <constraint firstItem="gje-6A-SKb" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="65" id="Uxr-wp-sIt"/>
+                            <constraint firstItem="oVZ-Zd-f6q" firstAttribute="top" secondItem="r7O-hH-py1" secondAttribute="bottom" constant="8" symbolic="YES" id="WJh-7y-Zu3"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="UnL-2b-xWe" secondAttribute="trailing" constant="127" id="WP1-aD-kw4"/>
+                            <constraint firstItem="UnL-2b-xWe" firstAttribute="leading" secondItem="fcg-n7-8Sb" secondAttribute="leading" constant="127" id="ady-xf-BDd"/>
+                            <constraint firstItem="mvf-la-7AK" firstAttribute="top" secondItem="oVZ-Zd-f6q" secondAttribute="bottom" constant="44" id="cjZ-Q6-kLW"/>
+                            <constraint firstItem="r7O-hH-py1" firstAttribute="top" secondItem="wfH-G6-Ig5" secondAttribute="bottom" constant="58" id="d9c-HX-8QU"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="gje-6A-SKb" secondAttribute="trailing" constant="84" id="fON-pc-Mp2"/>
+                            <constraint firstItem="wfH-G6-Ig5" firstAttribute="top" secondItem="fcg-n7-8Sb" secondAttribute="top" constant="127" id="pGR-aA-w1k"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="oVZ-Zd-f6q" secondAttribute="trailing" constant="84" id="qvY-7p-qpG"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="mvf-la-7AK" secondAttribute="trailing" constant="148" id="sds-Vx-70m"/>
+                            <constraint firstItem="fcg-n7-8Sb" firstAttribute="trailing" secondItem="r7O-hH-py1" secondAttribute="trailing" constant="182" id="wOl-hc-yQL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="wZH-Hp-EPa">
+                        <barButtonItem key="backBarButtonItem" title="login page" id="JyB-vK-7Eg"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMY-BR-ytN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759.5419847328244" y="3.5211267605633805"/>
+        </scene>
+        <!--Sign Up-->
+        <scene sceneID="fZI-JQ-KnV">
+            <objects>
+                <viewController id="zt4-JY-7bJ" customClass="SignUp" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itx-GI-3Qe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYR-Wj-p4Q">
+                                <rect key="frame" x="66" y="310" width="128" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHr-wH-e9k">
+                                <rect key="frame" x="68" y="479" width="159" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siS-In-N1w">
+                                <rect key="frame" x="68" y="221" width="171" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcS-Pw-4X1">
+                                <rect key="frame" x="68" y="141" width="182" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your First Name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygx-wh-Wpy">
+                                <rect key="frame" x="68" y="174" width="249" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="yes" textContentType="name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Last Name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="48m-9R-p0k">
+                                <rect key="frame" x="68" y="259" width="249" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="yes" textContentType="family-name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Email " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aet-LL-gLx">
+                                <rect key="frame" x="68" y="343" width="249" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="yes"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Password " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjz-Ud-EpZ">
+                                <rect key="frame" x="68" y="512" width="249" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="yes" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="his-Zx-bAm">
+                                <rect key="frame" x="68" y="429" width="249" height="34"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" textContentType="tel"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSZ-Bt-MfS">
+                                <rect key="frame" x="68" y="395" width="205" height="25"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PII-Ze-fuV">
+                                <rect key="frame" x="111" y="23" width="169" height="49"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="43"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50588238240000005" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2I-5A-lW8">
+                                <rect key="frame" x="122" y="587" width="147" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SignUp">
+                                    <backgroundConfiguration key="background" cornerRadius="21">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.86274516580000005" green="0.52549022440000004" blue="0.60392159219999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="grg-f0-2bs" kind="show" id="nmS-nB-oSc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yQn-lo-X9K"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="h2I-5A-lW8" secondAttribute="trailing" constant="124" id="2bD-F3-gSN"/>
+                            <constraint firstItem="RYR-Wj-p4Q" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="66" id="3I8-Lw-dC1"/>
+                            <constraint firstItem="h2I-5A-lW8" firstAttribute="top" secondItem="jjz-Ud-EpZ" secondAttribute="bottom" constant="41" id="5BE-IG-pnJ"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="RYR-Wj-p4Q" secondAttribute="trailing" constant="199" id="CWY-8i-5uu"/>
+                            <constraint firstItem="oSZ-Bt-MfS" firstAttribute="top" secondItem="aet-LL-gLx" secondAttribute="bottom" constant="18" id="EP6-kj-OWN"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="zcS-Pw-4X1" secondAttribute="trailing" constant="143" id="G6w-KG-5PK"/>
+                            <constraint firstItem="ygx-wh-Wpy" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="HoH-S9-AMZ"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="ygx-wh-Wpy" secondAttribute="trailing" constant="76" id="IIx-Ax-ulv"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="hHr-wH-e9k" secondAttribute="trailing" constant="166" id="Q8R-c3-9ql"/>
+                            <constraint firstItem="ygx-wh-Wpy" firstAttribute="top" secondItem="zcS-Pw-4X1" secondAttribute="bottom" constant="8" symbolic="YES" id="QDM-RJ-ugP"/>
+                            <constraint firstItem="hHr-wH-e9k" firstAttribute="top" secondItem="his-Zx-bAm" secondAttribute="bottom" constant="16" id="QQE-tD-IHF"/>
+                            <constraint firstItem="aet-LL-gLx" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="U4a-dR-eAT"/>
+                            <constraint firstItem="his-Zx-bAm" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="URx-eo-ZuQ"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="aet-LL-gLx" secondAttribute="trailing" constant="76" id="YIK-5u-N3V"/>
+                            <constraint firstItem="48m-9R-p0k" firstAttribute="top" secondItem="siS-In-N1w" secondAttribute="bottom" constant="13" id="ZCe-qZ-EvS"/>
+                            <constraint firstItem="hHr-wH-e9k" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="ZPd-9M-Jvz"/>
+                            <constraint firstItem="siS-In-N1w" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="Zk5-dB-h30"/>
+                            <constraint firstItem="his-Zx-bAm" firstAttribute="top" secondItem="oSZ-Bt-MfS" secondAttribute="bottom" constant="9" id="czs-5e-PU9"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="jjz-Ud-EpZ" secondAttribute="trailing" constant="76" id="eMd-IZ-zok"/>
+                            <constraint firstItem="48m-9R-p0k" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="f6w-qM-phz"/>
+                            <constraint firstItem="zcS-Pw-4X1" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="f8h-hZ-GR8"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="PII-Ze-fuV" secondAttribute="trailing" constant="113" id="fE6-cR-ygn"/>
+                            <constraint firstItem="siS-In-N1w" firstAttribute="top" secondItem="ygx-wh-Wpy" secondAttribute="bottom" constant="13" id="iNM-gA-ZUi"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="oSZ-Bt-MfS" secondAttribute="trailing" constant="120" id="kpU-TV-X3M"/>
+                            <constraint firstItem="PII-Ze-fuV" firstAttribute="top" secondItem="yQn-lo-X9K" secondAttribute="top" constant="23" id="lvF-60-NKw"/>
+                            <constraint firstItem="jjz-Ud-EpZ" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="mmg-u5-ra2"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="48m-9R-p0k" secondAttribute="trailing" constant="76" id="qIE-9f-Xl2"/>
+                            <constraint firstItem="RYR-Wj-p4Q" firstAttribute="top" secondItem="48m-9R-p0k" secondAttribute="bottom" constant="17" id="qlo-Gx-01z"/>
+                            <constraint firstItem="zcS-Pw-4X1" firstAttribute="top" secondItem="PII-Ze-fuV" secondAttribute="bottom" constant="69" id="sVN-Xe-1af"/>
+                            <constraint firstItem="aet-LL-gLx" firstAttribute="top" secondItem="RYR-Wj-p4Q" secondAttribute="bottom" constant="8" symbolic="YES" id="t3M-TS-t9C"/>
+                            <constraint firstItem="h2I-5A-lW8" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="122" id="tHa-Jw-J9l"/>
+                            <constraint firstItem="PII-Ze-fuV" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="111" id="u5X-rz-GKp"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="siS-In-N1w" secondAttribute="trailing" constant="154" id="ubM-NG-jO0"/>
+                            <constraint firstItem="yQn-lo-X9K" firstAttribute="trailing" secondItem="his-Zx-bAm" secondAttribute="trailing" constant="76" id="wvg-ip-krU"/>
+                            <constraint firstItem="oSZ-Bt-MfS" firstAttribute="leading" secondItem="yQn-lo-X9K" secondAttribute="leading" constant="68" id="yFR-x0-G4p"/>
+                            <constraint firstItem="jjz-Ud-EpZ" firstAttribute="top" secondItem="hHr-wH-e9k" secondAttribute="bottom" constant="8" symbolic="YES" id="yHs-Cc-v7G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="r2f-5r-t9e">
+                        <barButtonItem key="backBarButtonItem" title="signup page" id="qWL-m9-gdt"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1C-0P-1Lc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-961.06870229007632" y="698.59154929577471"/>
+        </scene>
+        <!--Services-->
+        <scene sceneID="Bri-2u-WuI">
+            <objects>
+                <viewController id="grg-f0-2bs" customClass="services" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YqX-Oh-Byd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huP-zh-RWf">
+                                <rect key="frame" x="24" y="72" width="344" height="284.66666666666669"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="women" imagePlacement="top" title="Adults Nails" imagePadding="4">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.98431372640000003" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dAy-JO-eDP" kind="show" id="kpc-1Q-XUq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVp-sJ-qod">
+                                <rect key="frame" x="95" y="0.0" width="203" height="49"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="43"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHC-ca-2TW">
+                                <rect key="frame" x="24" y="392.33333333333326" width="346" height="267"/>
+                                <buttonConfiguration key="configuration" style="plain" image="kids" imagePlacement="top" title="Little Ladies " imagePadding="4">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.98431372640000003" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="cjP-3c-ux0" kind="show" id="lOX-Cv-QBy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Siv-d8-TcA"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Siv-d8-TcA" firstAttribute="trailing" secondItem="TVp-sJ-qod" secondAttribute="trailing" constant="95" id="4lo-cZ-gyU"/>
+                            <constraint firstItem="TVp-sJ-qod" firstAttribute="leading" secondItem="Siv-d8-TcA" secondAttribute="leading" constant="95" id="BBi-Gb-eMY"/>
+                            <constraint firstItem="UHC-ca-2TW" firstAttribute="leading" secondItem="Siv-d8-TcA" secondAttribute="leading" constant="24" id="BPo-FB-oUW"/>
+                            <constraint firstItem="UHC-ca-2TW" firstAttribute="top" secondItem="huP-zh-RWf" secondAttribute="bottom" constant="35.670000000000002" id="Ca0-o6-gg0"/>
+                            <constraint firstItem="huP-zh-RWf" firstAttribute="leading" secondItem="Siv-d8-TcA" secondAttribute="leading" constant="24" id="GlW-mv-EAi"/>
+                            <constraint firstItem="Siv-d8-TcA" firstAttribute="trailing" secondItem="UHC-ca-2TW" secondAttribute="trailing" constant="23" id="OOi-6V-bG1"/>
+                            <constraint firstItem="Siv-d8-TcA" firstAttribute="trailing" secondItem="huP-zh-RWf" secondAttribute="trailing" constant="25" id="SnR-iD-oF4"/>
+                            <constraint firstItem="TVp-sJ-qod" firstAttribute="top" secondItem="Siv-d8-TcA" secondAttribute="top" id="ZaW-q5-Viv"/>
+                            <constraint firstItem="huP-zh-RWf" firstAttribute="top" secondItem="TVp-sJ-qod" secondAttribute="bottom" constant="23" id="hds-IN-RED"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="agc-ZT-7Ej">
+                        <barButtonItem key="backBarButtonItem" title="Services page" id="U9h-D1-xpj"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UV4-E2-i95" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209.92366412213741" y="708.45070422535218"/>
+        </scene>
+        <!--Little Ladies-->
+        <scene sceneID="4jo-xe-dlS">
+            <objects>
+                <viewController id="cjP-3c-ux0" customClass="littleLadies" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JRz-hV-0HC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wc-Tl-qPa">
+                                <rect key="frame" x="50" y="258" width="313" height="171"/>
+                                <string key="text">Flow Mani
+Flow Pedi
+Shape &amp; Polish - H
+Shape &amp; Polish - F
+Regular Polish
+French Polish
+Polish Change</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9df-hU-YPd">
+                                <rect key="frame" x="120" y="258" width="233" height="171"/>
+                                <string key="text">40 Dhs
+45 Dhs
+20 Dhs
+25 Dhs
+10 Dhs
+20 Dhs
+15 Dhs</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saT-jY-6ni">
+                                <rect key="frame" x="62" y="493.99999999999994" width="191.33333333333337" height="38.333333333333314"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                <menu key="menu" id="SFU-Hh-Vlx">
+                                    <children>
+                                        <command title="Select your service:" id="cIX-oe-RtP"/>
+                                        <command title="Item 2" id="xLV-ej-q26"/>
+                                    </children>
+                                </menu>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Little Ladies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jX7-oA-mPf">
+                                <rect key="frame" x="51" y="101" width="291" height="52"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(3 to 8 years)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkm-bM-b4d">
+                                <rect key="frame" x="128" y="174" width="136" height="28"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="23"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75686275960000005" green="0.56862747670000002" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJl-az-XBw">
+                                <rect key="frame" x="261" y="494" width="65.333333333333314" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <backgroundConfiguration key="background" cornerRadius="0.0">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="j9x-pR-EdS" kind="show" id="dqa-Eb-wIA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fyD-pi-EJc"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ZJl-az-XBw" firstAttribute="top" secondItem="6Wc-Tl-qPa" secondAttribute="bottom" constant="65" id="10X-Gg-kYO"/>
+                            <constraint firstItem="ZJl-az-XBw" firstAttribute="leading" secondItem="saT-jY-6ni" secondAttribute="trailing" constant="7.6699999999999999" id="2Qo-YL-NrD"/>
+                            <constraint firstItem="jX7-oA-mPf" firstAttribute="leading" secondItem="fyD-pi-EJc" secondAttribute="leading" constant="51" id="2fB-kd-l2M"/>
+                            <constraint firstItem="fyD-pi-EJc" firstAttribute="trailing" secondItem="jX7-oA-mPf" secondAttribute="trailing" constant="51" id="4ig-ay-qcE"/>
+                            <constraint firstItem="zkm-bM-b4d" firstAttribute="leading" secondItem="fyD-pi-EJc" secondAttribute="leading" constant="128" id="9bD-bk-yta"/>
+                            <constraint firstItem="fyD-pi-EJc" firstAttribute="trailing" secondItem="zkm-bM-b4d" secondAttribute="trailing" constant="129" id="EuR-l6-C57"/>
+                            <constraint firstItem="9df-hU-YPd" firstAttribute="leading" secondItem="fyD-pi-EJc" secondAttribute="leading" constant="120" id="LkA-R3-4ca"/>
+                            <constraint firstItem="saT-jY-6ni" firstAttribute="top" secondItem="6Wc-Tl-qPa" secondAttribute="bottom" constant="65" id="Lmm-7B-dyc"/>
+                            <constraint firstItem="fyD-pi-EJc" firstAttribute="trailing" secondItem="ZJl-az-XBw" secondAttribute="trailing" constant="66.670000000000002" id="RUR-QB-cEw"/>
+                            <constraint firstItem="jX7-oA-mPf" firstAttribute="top" secondItem="fyD-pi-EJc" secondAttribute="top" constant="101" id="TKx-Xy-fGb"/>
+                            <constraint firstItem="fyD-pi-EJc" firstAttribute="trailing" secondItem="9df-hU-YPd" secondAttribute="trailing" constant="40" id="hA6-Xd-Esd"/>
+                            <constraint firstItem="fyD-pi-EJc" firstAttribute="trailing" secondItem="6Wc-Tl-qPa" secondAttribute="trailing" constant="30" id="hgK-38-TU2"/>
+                            <constraint firstItem="zkm-bM-b4d" firstAttribute="top" secondItem="jX7-oA-mPf" secondAttribute="bottom" constant="21" id="i7r-2W-6G7"/>
+                            <constraint firstItem="saT-jY-6ni" firstAttribute="leading" secondItem="fyD-pi-EJc" secondAttribute="leading" constant="62" id="n5Y-Dj-ZKt"/>
+                            <constraint firstItem="6Wc-Tl-qPa" firstAttribute="leading" secondItem="fyD-pi-EJc" secondAttribute="leading" constant="50" id="qcg-3a-fVp"/>
+                            <constraint firstItem="ZJl-az-XBw" firstAttribute="leading" secondItem="saT-jY-6ni" secondAttribute="trailing" constant="7.6699999999999999" id="r6g-oH-ZSh"/>
+                            <constraint firstItem="6Wc-Tl-qPa" firstAttribute="top" secondItem="zkm-bM-b4d" secondAttribute="bottom" constant="56" id="r8K-vT-Yny"/>
+                            <constraint firstItem="9df-hU-YPd" firstAttribute="top" secondItem="zkm-bM-b4d" secondAttribute="bottom" constant="56" id="rJh-qK-HfP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1UN-2l-nxY">
+                        <barButtonItem key="backBarButtonItem" title="little ladies page" id="cku-Yw-lHj"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="PopUpLittle" destination="saT-jY-6ni" id="VOI-GY-Dn2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Dl-9r-tRO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-211.4503816793893" y="1409.8591549295775"/>
+        </scene>
+        <!--Booking-->
+        <scene sceneID="JvK-cv-sXc">
+            <objects>
+                <viewController id="j9x-pR-EdS" customClass="booking" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tRF-Ii-Ker">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="xnM-8h-ICH">
+                                <rect key="frame" x="39" y="214" width="320" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Available Times:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tp-tO-V2C">
+                                <rect key="frame" x="39" y="536" width="320" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="24"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.89019608500000003" green="0.63921570780000003" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click here to book!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huK-we-sN3">
+                                <rect key="frame" x="-10" y="662" width="413" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.63529413940000001" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEK-fs-e37">
+                                <rect key="frame" x="39" y="586" width="320" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                <menu key="menu" id="IVz-wb-il9">
+                                    <children>
+                                        <command title="Available time" id="6XC-G1-pdO"/>
+                                        <command title="Item 2" id="N0F-5c-qko"/>
+                                    </children>
+                                </menu>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yi9-wP-D8H">
+                                <rect key="frame" x="86" y="742" width="227" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Book">
+                                    <backgroundConfiguration key="background" cornerRadius="21"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="bookbtn:" destination="j9x-pR-EdS" eventType="touchUpInside" id="8ko-0d-TDR"/>
+                                    <segue destination="tJp-Xb-lB1" kind="show" id="lPN-YH-6Eq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book an appointment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOO-oU-n4N">
+                                <rect key="frame" x="67" y="89" width="264" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="34"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4H6-JR-fQn"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="F2W-Jf-sbl">
+                        <barButtonItem key="backBarButtonItem" title="Book page" id="TW9-AX-9NH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lableBook" destination="huK-we-sN3" id="n4X-xE-9Bf"/>
+                        <outlet property="timebtn" destination="SEK-fs-e37" id="7jW-W4-Rri"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ss-Jn-whn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493.89312977099235" y="1409.8591549295775"/>
+        </scene>
+        <!--Thankyou-->
+        <scene sceneID="JfD-9D-EJp">
+            <objects>
+                <viewController id="tJp-Xb-lB1" customClass="Thankyou" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcQ-OS-o8D">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="52S-wc-5GX">
+                                <rect key="frame" x="66" y="289.66666666666674" width="261" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="maximumTrackTintColor" red="0.98431372640000003" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jw2-qT-755">
+                                <rect key="frame" x="136" y="461" width="125" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9098039269" green="0.68235301969999995" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="yes"/>
+                                    <segment title="no"/>
+                                </segments>
+                                <color key="tintColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" would you recommend our application to your Friends?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-ju-Uzn">
+                                <rect key="frame" x="23" y="376" width="347" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64705884459999996" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For any suggestion leave your feedback below:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVA-Qf-4gz">
+                                <rect key="frame" x="60" y="507" width="393" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64705884459999996" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgZ-2E-o1M">
+                                <rect key="frame" x="28" y="304" width="108" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64705884459999996" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEw-7V-Q8g">
+                                <rect key="frame" x="144" y="304" width="108" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64705884459999996" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr3-Wd-1jS">
+                                <rect key="frame" x="259" y="304" width="108" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64705884459999996" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKu-dQ-ygv">
+                                <rect key="frame" x="123" y="686" width="147" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="home page?">
+                                    <fontDescription key="titleFontDescription" type="italicSystem" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sCP-mS-OcY"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Fb-4x-ueA">
+                                <rect key="frame" x="47" y="584" width="299" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUO-Oh-w0S">
+                                <rect key="frame" x="85" y="138" width="223" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="how would you rate our application?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5f-bO-iuW">
+                                <rect key="frame" x="60" y="212" width="273" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.88627451660000001" green="0.64313727620000005" blue="0.69803923369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IuS-Hx-19H"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rzf-Qa-ZUq">
+                        <barButtonItem key="backBarButtonItem" title="Feedback page" id="g2j-PN-bxk"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CYt-uG-ACu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1635.8778625954199" y="825.35211267605644"/>
+        </scene>
+        <!--Adults Nails-->
+        <scene sceneID="owK-tq-g3X">
+            <objects>
+                <viewController id="dAy-JO-eDP" customClass="AdultsNails" customModule="mini_project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ihf-IR-eqi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op0-gh-bs1">
+                                <rect key="frame" x="31" y="171.99999999999997" width="298" height="365.33333333333326"/>
+                                <string key="text">Express Mani &amp; Pedi
+Express Mani
+Express Pedi
+
+Flow Mani &amp; Pedi
+Flow Mani
+Flow Pedi
+
+French Mani &amp; Pedi
+French Mani
+French Pedi
+
+Regular Polish
+French Polish
+Essie Gel Couture</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0s-yf-YfI">
+                                <rect key="frame" x="105" y="172.99999999999997" width="253" height="365.33333333333326"/>
+                                <string key="text">75 Dhs
+35Dhs
+40 Dhs
+
+150 Dhs
+70 Dhs
+80 Dhs
+
+170 Dhs
+80 Dhs
+90 Dhs
+
+20 Dhs
+30 Dhs
+25 Dhs</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <color key="textColor" red="0.86666667460000002" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adults Nails" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Szt-bI-Mvh">
+                                <rect key="frame" x="56" y="30" width="285" height="52"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.9098039269" green="0.67450982329999998" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBq-2F-oZc">
+                                <rect key="frame" x="64" y="693" width="191.33333333333337" height="34.333333333333371"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                <menu key="menu" id="QuS-7D-LU2">
+                                    <children>
+                                        <command title="Select your service:" id="AcX-3k-SQh"/>
+                                        <command title="Item 2" id="Ssa-KU-Xtf"/>
+                                    </children>
+                                </menu>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4H-HV-jkU">
+                                <rect key="frame" x="264.33333333333337" y="693" width="65.333333333333314" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="0.0">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.84705877299999999" green="0.54901963470000004" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="j9x-pR-EdS" kind="show" id="Uky-Tk-wry"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manicure &amp; Pedicure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3f7-ba-FrC">
+                                <rect key="frame" x="104.00000000000001" y="90" width="185.33333333333337" height="24.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.50196081400000003" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.90196073060000004" green="0.64705884459999996" blue="0.69803923369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rzX-2X-ug6"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.87058818339999999" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="e0s-yf-YfI" firstAttribute="top" secondItem="3f7-ba-FrC" secondAttribute="bottom" constant="58.329999999999998" id="3JV-BJ-zhr"/>
+                            <constraint firstItem="e0s-yf-YfI" firstAttribute="leading" secondItem="rzX-2X-ug6" secondAttribute="leading" constant="105" id="Gsu-kv-Tdx"/>
+                            <constraint firstItem="3f7-ba-FrC" firstAttribute="leading" secondItem="rzX-2X-ug6" secondAttribute="leading" constant="104" id="Jgr-gL-4gL"/>
+                            <constraint firstItem="rzX-2X-ug6" firstAttribute="trailing" secondItem="Szt-bI-Mvh" secondAttribute="trailing" constant="52" id="R4c-tx-Ide"/>
+                            <constraint firstItem="Szt-bI-Mvh" firstAttribute="leading" secondItem="rzX-2X-ug6" secondAttribute="leading" constant="56" id="fGa-G6-03Y"/>
+                            <constraint firstItem="3f7-ba-FrC" firstAttribute="top" secondItem="Szt-bI-Mvh" secondAttribute="bottom" constant="8" symbolic="YES" id="fnn-uZ-7rF"/>
+                            <constraint firstItem="rzX-2X-ug6" firstAttribute="trailing" secondItem="3f7-ba-FrC" secondAttribute="trailing" constant="103.67" id="ghS-zd-HXC"/>
+                            <constraint firstItem="Op0-gh-bs1" firstAttribute="top" secondItem="3f7-ba-FrC" secondAttribute="bottom" constant="57.329999999999998" id="hDU-BB-bho"/>
+                            <constraint firstItem="rzX-2X-ug6" firstAttribute="trailing" secondItem="Op0-gh-bs1" secondAttribute="trailing" constant="64" id="jlZ-1a-tmV"/>
+                            <constraint firstItem="rzX-2X-ug6" firstAttribute="trailing" secondItem="e0s-yf-YfI" secondAttribute="trailing" constant="35" id="olu-Ih-Oe6"/>
+                            <constraint firstItem="Op0-gh-bs1" firstAttribute="leading" secondItem="rzX-2X-ug6" secondAttribute="leading" constant="31" id="tTd-aY-XWh"/>
+                            <constraint firstItem="Szt-bI-Mvh" firstAttribute="top" secondItem="rzX-2X-ug6" secondAttribute="top" constant="30" id="tsw-Pb-I5a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NDc-bk-ql8">
+                        <barButtonItem key="backBarButtonItem" title="Adults Nails page" id="B4G-FJ-btv"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="PopUpBtn" destination="vBq-2F-oZc" id="FSR-F2-3F6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZXL-zJ-eNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493.89312977099235" y="736.61971830985919"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lkm-QS-AFE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ixt-mk-4MH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Scw-TH-Yw5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tJl-JI-wJj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PD8-37-OGR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1127" y="-23"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="iSD-1U-s31"/>
+        <segue reference="dqa-Eb-wIA"/>
+        <segue reference="nmS-nB-oSc"/>
+        <segue reference="sCP-mS-OcY"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="kids" width="320" height="226"/>
+        <image name="women" width="320" height="243"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
